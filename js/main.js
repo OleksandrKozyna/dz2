@@ -52,11 +52,10 @@ function weekFn(n) {
       default:
         str = null;
     }
-  
     return str;
   }
 
-function ageClassification(num) {
+function (num) {
   return num > 0
     ? num > 24
       ? num > 44
